@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel1</object-name>
+    <object-name>panel2</object-name>
+    
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>panel2</object-name>
+    <condition>
+      <property>/controls/electric/battery-switch</property>
+    </condition>
+    <emission>
+      <factor-prop>controls/lighting/panel-dim</factor-prop>
+      <red>   0.8 </red>
+      <green> 0.4 </green>
+      <blue>  0.4 </blue>
+    </emission>
+  </animation>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/ASI/asi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.377 </y-m>
+      <z-m>  0.031 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/AI/ai.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.267 </y-m>
+      <z-m>  0.031 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Altimeter/Altimeter.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.164 </y-m>
+      <z-m>  0.031 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Turn/Turn.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.465 </y-m>
+      <z-m> -0.009 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- HSI -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m> -0.267 </y-m>
+      <z-m> -0.067 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.173 </y-m>
+      <z-m> -0.046 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KR87 -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/kr87-adf/kr87.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KI227 -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/kr87-adf/ki227.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.377 </y-m>
+      <z-m> -0.067 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KT76A -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/KT76A/KT76A.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.098 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KI204 -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/KI204/KI204.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.270 </y-m>
+      <z-m> 0.031 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KI266 -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/ki266/ki266.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.169 </y-m>
+      <z-m>  0.014 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ADF CTL62 -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/CTL62/ctl62.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.031 </y-m>
+      <z-m> -0.009 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/CTL62/ctl62.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.031 </y-m>
+      <z-m> -0.009 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/CTL62/ctl62.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.031 </y-m>
+      <z-m>  0.059 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/CTL62/ctl62.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.031 </y-m>
+      <z-m>  0.059 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- GAUGES -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Gauges/gauges.xml</path>
+    <offsets>
+      <x-m> -0.00254 </x-m>
+      <y-m>  0.27434 </y-m>
+      <z-m> -0.05421 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- CLOCK -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.464 </y-m>
+      <z-m> -0.069 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Plaques -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Plaques/plaques.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.15960 </y-m>
+      <z-m> -0.09638 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Switchs -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Switch/battery.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.123 </y-m>
+      <z-m> -0.062 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Switch/instr-light.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.195 </y-m>
+      <z-m> -0.095 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Switch/taxi-light.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.171 </y-m>
+      <z-m> -0.095 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Switch/nav-light.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.147 </y-m>
+      <z-m> -0.095 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Switch/landing-light.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.123 </y-m>
+      <z-m> -0.095 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- THROTTLES -->
+  <model>
+    <path>Aircraft/Caproni-C22J/Models/Interior/Panel/Instruments/Throttles/throttles.xml</path>
+    <offsets>
+      <x-m>  0.03572 </x-m>
+      <y-m> -0.05996 </y-m>
+      <z-m> -0.32914 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
