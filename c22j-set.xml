@@ -16,6 +16,20 @@
       <model type="int">   4 </model>
     </rating>
 
+    <tags>
+      <tag>trainer</tag>
+      <tag>prototype</tag>
+      <tag>1980s</tag>
+      <tag>1990s</tag>
+      <tag>2000s</tag>
+      <tag>2100s</tag>
+      <tag>high-wing</tag>
+      <tag>t-tail</tag>
+      <tag>retractable-gear</tag>
+      <tag>twin-engine</tag>
+      <tag>jet</tag>
+    </tags>
+
   </sim>
 
 </PropertyList>
